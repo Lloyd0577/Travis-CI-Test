@@ -25,6 +25,6 @@ class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
         var testFile = TestFile()
-        assertEquals(2, testFile.testMethod(1, 2))
+        assertEquals(6, testFile.testMethod(1, 2,3))
     }
 }
